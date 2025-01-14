@@ -9,6 +9,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.1.6"
+    "astro": "^5.1.6",
+    "microcms-js-sdk": "^3.1.2"
+  },
+  "volta": {
+    "node": "23.6.0"
   }
 }
