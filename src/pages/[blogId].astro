@@ -22,7 +22,7 @@ const blog = await getBlogDetail(blogId as string);
     <h1 class="title">{blog.title}</h1>
     <ul>
       {
-        blog.tags.map((tag) => (
+        blog?.tags.map((tag) => (
           <li>{tag.name}</li>
         ))
       }
