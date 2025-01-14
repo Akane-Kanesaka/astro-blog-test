@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "astro": "^5.1.6",
-    "microcms-js-sdk": "^3.1.2"
+    "microcms-js-sdk": "^3.1.2",
+    "swiper": "^11.2.1"
   },
   "volta": {
     "node": "23.6.0"

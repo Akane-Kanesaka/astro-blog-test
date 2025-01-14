@@ -16,6 +16,11 @@ export type Blog = {
   title: string;
   body: string;
   thumbnail: MicroCMSImage;
+  tags: Tag[];
+} & MicroCMSListContent;
+
+export type Tag = {
+  name: string;
 } & MicroCMSListContent;
 
 // APIの呼び出し
